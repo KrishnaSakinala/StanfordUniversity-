@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+
 import config.ConstantsClass;
 import util.CommonMethods;
 
@@ -88,7 +89,7 @@ public class Register
 		
 	}
 	
-	public void fillRegistrationform()
+	public void fillRegistrationform() throws InterruptedException
 	{
 		firstName.sendKeys(util.Data.firstName);
 		lastName.sendKeys(util.Data.lastName);
@@ -105,6 +106,7 @@ public class Register
 		password.sendKeys(util.Data.passowrd);
 		confirmPassword.sendKeys(util.Data.confrimPassword);
 		submitButton.click();
+		Thread.sleep(7000);
 				
 	}
 	

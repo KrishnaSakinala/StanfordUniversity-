@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <parameter name="browser" value="firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
   <test name="Test1(failed)">
     <classes>
-      <class name="testcases.UserRegistrationForm">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifyUserRegistrationForm"/>
-          <include name="verifyRegisteredUserInWebTable"/>
-        </methods>
-      </class> <!-- testcases.UserRegistrationForm -->
       <class name="testcases.EditRegisteredUserEmail">
         <methods>
           <include name="verifyEditRegisteredUserEmail"/>
+          <include name="generateReport"/>
         </methods>
       </class> <!-- testcases.EditRegisteredUserEmail -->
+      <class name="testcases.UserRegistrationForm">
+        <methods>
+          <include name="setUp"/>
+          <include name="reportClose"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- testcases.UserRegistrationForm -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
