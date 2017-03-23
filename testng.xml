@@ -5,7 +5,7 @@
   <test name="Test1">
     <classes>
       <class name="testcases.UserRegistrationForm"/> 
-      <class name="testcases.EditRegisteredUserEmail"/> 
+      <class name="testcases.EditRegisteredUserEmail"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

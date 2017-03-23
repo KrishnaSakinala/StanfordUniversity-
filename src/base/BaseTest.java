@@ -32,10 +32,9 @@ public  class BaseTest
 	
 	@BeforeSuite
 	@Parameters("browser")
-	public void setUp(String browserName) 
+	public void setUp(String browserName)
 	{
-		String currentDateTime= getDateTime();
-		report=new ExtentReports(System.getProperty("user.dir") + "\\ExtentReports\\ExtentReports - "+currentDateTime+".html");
+		report=new ExtentReports(System.getProperty("user.dir") +"/test-output/HTMLResultReport.html");
 		report.addSystemInfo("Host Name", "Automation User");
 		report.addSystemInfo("Environment", "QA");
 		report.addSystemInfo("User Name", "Selenium User");
@@ -81,11 +80,12 @@ public  class BaseTest
 	
 	public String captureFailedScreenshot(String screenName) throws IOException
 	{
-		Random rand= new Random();
-		int number=rand.nextInt(10000);
+		String currentDateTime= getDateTime();
+		/*Random rand= new Random();
+		int number=rand.nextInt(10000);*/
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File srcFile=ts.getScreenshotAs(OutputType.FILE) ;
-		String destination=System.getProperty("user.dir")+"\\Screenshots\\"+screenName+number+".png";
+		String destination=System.getProperty("user.dir")+"\\Screenshots\\"+screenName+" "+currentDateTime+".png";
 		File dest=new File(destination);
 		FileUtils.copyFile(srcFile, dest);
 		return destination;

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10986" started-at="2017-03-22T12:23:51Z" finished-at="2017-03-22T12:24:02Z">
+  <suite name="Suite" duration-ms="10741" started-at="2017-03-23T10:13:10Z" finished-at="2017-03-23T10:13:21Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="10986" started-at="2017-03-22T12:23:51Z" finished-at="2017-03-22T12:24:02Z">
+    <test name="Test1" duration-ms="10741" started-at="2017-03-23T10:13:10Z" finished-at="2017-03-23T10:13:21Z">
       <class name="testcases.UserRegistrationForm">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testcases.UserRegistrationForm@1ffcba5]" name="setUp" is-config="true" duration-ms="13363" started-at="2017-03-22T17:53:37Z" finished-at="2017-03-22T17:53:51Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testcases.UserRegistrationForm@167c1fc]" name="setUp" is-config="true" duration-ms="24539" started-at="2017-03-23T15:42:46Z" finished-at="2017-03-23T15:43:10Z">
           <params>
             <param index="0">
               <value>
@@ -18,68 +18,68 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPhotoUpload()[pri:1, instance:testcases.UserRegistrationForm@1ffcba5]" name="verifyPhotoUpload" duration-ms="163" started-at="2017-03-22T17:53:51Z" finished-at="2017-03-22T17:53:51Z">
+        <test-method status="PASS" signature="verifyPhotoUpload()[pri:1, instance:testcases.UserRegistrationForm@167c1fc]" name="verifyPhotoUpload" duration-ms="218" started-at="2017-03-23T15:43:10Z" finished-at="2017-03-23T15:43:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPhotoUpload -->
-        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.UserRegistrationForm@1ffcba5]" name="generateReport" is-config="true" duration-ms="2" started-at="2017-03-22T17:53:51Z" finished-at="2017-03-22T17:53:51Z">
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.UserRegistrationForm@167c1fc]" name="generateReport" is-config="true" duration-ms="3" started-at="2017-03-23T15:43:11Z" finished-at="2017-03-23T15:43:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPhotoUpload status=SUCCESS method=UserRegistrationForm.verifyPhotoUpload()[pri:1, instance:testcases.UserRegistrationForm@1ffcba5] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPhotoUpload status=SUCCESS method=UserRegistrationForm.verifyPhotoUpload()[pri:1, instance:testcases.UserRegistrationForm@167c1fc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="verifyUserRegistrationForm()[pri:2, instance:testcases.UserRegistrationForm@1ffcba5]" name="verifyUserRegistrationForm" duration-ms="10524" started-at="2017-03-22T17:53:51Z" finished-at="2017-03-22T17:54:01Z">
+        <test-method status="PASS" signature="verifyUserRegistrationForm()[pri:2, instance:testcases.UserRegistrationForm@167c1fc]" name="verifyUserRegistrationForm" duration-ms="10029" started-at="2017-03-23T15:43:11Z" finished-at="2017-03-23T15:43:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserRegistrationForm -->
-        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.UserRegistrationForm@1ffcba5]" name="generateReport" is-config="true" duration-ms="0" started-at="2017-03-22T17:54:01Z" finished-at="2017-03-22T17:54:01Z">
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.UserRegistrationForm@167c1fc]" name="generateReport" is-config="true" duration-ms="0" started-at="2017-03-23T15:43:21Z" finished-at="2017-03-23T15:43:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserRegistrationForm status=SUCCESS method=UserRegistrationForm.verifyUserRegistrationForm()[pri:2, instance:testcases.UserRegistrationForm@1ffcba5] output={null}]]]>
+                <![CDATA[[TestResult name=verifyUserRegistrationForm status=SUCCESS method=UserRegistrationForm.verifyUserRegistrationForm()[pri:2, instance:testcases.UserRegistrationForm@167c1fc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="reportClose()[pri:0, instance:testcases.UserRegistrationForm@1ffcba5]" name="reportClose" is-config="true" duration-ms="2559" started-at="2017-03-22T17:54:02Z" finished-at="2017-03-22T17:54:04Z">
+        <test-method status="PASS" signature="reportClose()[pri:0, instance:testcases.UserRegistrationForm@167c1fc]" name="reportClose" is-config="true" duration-ms="2488" started-at="2017-03-23T15:43:21Z" finished-at="2017-03-23T15:43:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportClose -->
       </class> <!-- testcases.UserRegistrationForm -->
       <class name="testcases.EditRegisteredUserEmail">
-        <test-method status="FAIL" signature="verifyEditRegisteredUserEmail()[pri:0, instance:testcases.EditRegisteredUserEmail@340fab]" name="verifyEditRegisteredUserEmail" duration-ms="71" started-at="2017-03-22T17:54:01Z" finished-at="2017-03-22T17:54:01Z">
+        <test-method status="FAIL" signature="verifyEditRegisteredUserEmail()[pri:0, instance:testcases.EditRegisteredUserEmail@1ee9faa]" name="verifyEditRegisteredUserEmail" duration-ms="164" started-at="2017-03-23T15:43:21Z" finished-at="2017-03-23T15:43:21Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-grid-canvas']/div[1]/div/div[6]/user-click-select/div[1]/button/i"}
   (Session info: chrome=57.0.2987.110)
   (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 47 milliseconds
+Command duration or timeout: 67 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.3.0', revision: 'b526bd5', time: '2017-03-07 11:21:31 -0800'
 System info: host: 'KSAKINAL-L-505', ip: '192.168.0.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\KSAKIN~1.EVO\AppData\Local\Temp\scoped_dir19896_20700}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: ff2720beb0594e652553731e81ff5007
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\KSAKIN~1.EVO\AppData\Local\Temp\scoped_dir22292_20460}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bf5f2bedf03fd0dc4726c68b3eabaecf
 *** Element info: {Using=xpath, value=//div[@class='ui-grid-canvas']/div[1]/div/div[6]/user-click-select/div[1]/button/i}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-grid-canvas']/div[1]/div/div[6]/user-click-select/div[1]/button/i"}
   (Session info: chrome=57.0.2987.110)
   (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 47 milliseconds
+Command duration or timeout: 67 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.3.0', revision: 'b526bd5', time: '2017-03-07 11:21:31 -0800'
 System info: host: 'KSAKINAL-L-505', ip: '192.168.0.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\KSAKIN~1.EVO\AppData\Local\Temp\scoped_dir19896_20700}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: ff2720beb0594e652553731e81ff5007
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\KSAKIN~1.EVO\AppData\Local\Temp\scoped_dir22292_20460}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bf5f2bedf03fd0dc4726c68b3eabaecf
 *** Element info: {Using=xpath, value=//div[@class='ui-grid-canvas']/div[1]/div/div[6]/user-click-select/div[1]/button/i}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -94,7 +94,7 @@ Session ID: ff2720beb0594e652553731e81ff5007
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.getCoordinates(Unknown Source)
+	at com.sun.proxy.$Proxy10.getCoordinates(Unknown Source)
 	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:67)
 	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:74)
 	at org.openqa.selenium.interactions.DoubleClickAction.perform(DoubleClickAction.java:43)
@@ -123,19 +123,20 @@ Session ID: ff2720beb0594e652553731e81ff5007
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
 	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEditRegisteredUserEmail -->
-        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.EditRegisteredUserEmail@340fab]" name="generateReport" is-config="true" duration-ms="211" started-at="2017-03-22T17:54:01Z" finished-at="2017-03-22T17:54:02Z">
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.EditRegisteredUserEmail@1ee9faa]" name="generateReport" is-config="true" duration-ms="250" started-at="2017-03-23T15:43:21Z" finished-at="2017-03-23T15:43:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyEditRegisteredUserEmail status=FAILURE method=EditRegisteredUserEmail.verifyEditRegisteredUserEmail()[pri:0, instance:testcases.EditRegisteredUserEmail@340fab] output={null}]]]>
+                <![CDATA[[TestResult name=verifyEditRegisteredUserEmail status=FAILURE method=EditRegisteredUserEmail.verifyEditRegisteredUserEmail()[pri:0, instance:testcases.EditRegisteredUserEmail@1ee9faa] output={null}]]]>
               </value>
             </param>
           </params>

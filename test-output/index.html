@@ -149,13 +149,13 @@
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ui-grid-canvas&apos;]/div[1]/div/div[6]/user-click-select/div[1]/button/i&quot;}
   (Session info: chrome=57.0.2987.110)
   (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 47 milliseconds
+Command duration or timeout: 67 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.3.0&apos;, revision: &apos;b526bd5&apos;, time: &apos;2017-03-07 11:21:31 -0800&apos;
 System info: host: &apos;KSAKINAL-L-505&apos;, ip: &apos;192.168.0.75&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\KSAKIN~1.EVO\AppData\Local\Temp\scoped_dir19896_20700}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: ff2720beb0594e652553731e81ff5007
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\KSAKIN~1.EVO\AppData\Local\Temp\scoped_dir22292_20460}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bf5f2bedf03fd0dc4726c68b3eabaecf
 *** Element info: {Using=xpath, value=//div[@class=&apos;ui-grid-canvas&apos;]/div[1]/div/div[6]/user-click-select/div[1]/button/i}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
@@ -166,7 +166,7 @@ Session ID: ff2720beb0594e652553731e81ff5007
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.getCoordinates(Unknown Source)
+	at com.sun.proxy.$Proxy10.getCoordinates(Unknown Source)
 	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:67)
 	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:74)
 	at org.openqa.selenium.interactions.DoubleClickAction.perform(DoubleClickAction.java:43)
@@ -174,7 +174,7 @@ Session ID: ff2720beb0594e652553731e81ff5007
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:637)
 	at pages.WebTable.editFeildValueInWebTable(WebTable.java:58)
 	at testcases.EditRegisteredUserEmail.verifyEditRegisteredUserEmail(EditRegisteredUserEmail.java:17)
-... Removed 27 stack frames
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -260,15 +260,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyUserRegistrationForm')
 data.setCell(0, 2, 'testcases.UserRegistrationForm')
-data.setCell(0, 3, 10524);
+data.setCell(0, 3, 10029);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyPhotoUpload')
 data.setCell(1, 2, 'testcases.UserRegistrationForm')
-data.setCell(1, 3, 163);
+data.setCell(1, 3, 218);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyEditRegisteredUserEmail')
 data.setCell(2, 2, 'testcases.EditRegisteredUserEmail')
-data.setCell(2, 3, 71);
+data.setCell(2, 3, 164);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -315,19 +315,19 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">verifyPhotoUpload</span>
-                <span class="method-start">13375 ms</span>
+                <span class="method-start">24586 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=verifyPhotoUpload status=SUCCESS method=UserRegistrationForm.verifyPhotoUpload()[pr...)</span>
-                <span class="method-start">13539 ms</span>
+                <span class="method-start">24810 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyUserRegistrationForm</span>
-                <span class="method-start">13541 ms</span>
+                <span class="method-start">24813 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=verifyUserRegistrationForm status=SUCCESS method=UserRegistrationForm.verifyUserReg...)</span>
-                <span class="method-start">24065 ms</span>
+                <span class="method-start">34843 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -336,18 +336,18 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyEditRegisteredUserEmail</span>
-                <span class="method-start">24066 ms</span>
+                <span class="method-start">34845 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=verifyEditRegisteredUserEmail status=FAILURE method=EditRegisteredUserEmail.verifyE...)</span>
-                <span class="method-start">24138 ms</span>
+                <span class="method-start">35030 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.UserRegistrationForm</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">reportClose</span>
-                <span class="method-start">24374 ms</span>
+                <span class="method-start">35388 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
