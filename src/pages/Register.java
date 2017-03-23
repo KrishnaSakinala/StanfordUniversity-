@@ -1,5 +1,7 @@
 package pages;
 
+import java.util.Random;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -94,8 +96,12 @@ public class Register
 		firstName.sendKeys(util.Data.firstName);
 		lastName.sendKeys(util.Data.lastName);
 		adress.sendKeys(util.Data.adress);
-		email.sendKeys(util.Data.emailId);
-		phone.sendKeys(util.Data.phone);
+		Random rand= new Random();
+		int number=rand.nextInt(10000);
+		String emailId = "email"+number+"@gmail.com";
+		email.sendKeys(emailId);
+		String phoneNumber = Long.toString((long)(Math.random()*100000 + 9933300000L));
+		phone.sendKeys(phoneNumber);
 		CommonMethods.click(gender);
 		CommonMethods.click(hobbies);
 		CommonMethods.select(skills, 1);

@@ -146,35 +146,25 @@
                   <a name="verifyEditRegisteredUserEmail">
                   </a> <!-- verifyEditRegisteredUserEmail -->
                   <span class="method-name">verifyEditRegisteredUserEmail</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ui-grid-canvas&apos;]/div[1]/div/div[6]/user-click-select/div[1]/button/i&quot;}
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: cannot focus element
   (Session info: chrome=57.0.2987.110)
   (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 67 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 58 milliseconds
 Build info: version: &apos;3.3.0&apos;, revision: &apos;b526bd5&apos;, time: &apos;2017-03-07 11:21:31 -0800&apos;
 System info: host: &apos;KSAKINAL-L-505&apos;, ip: &apos;192.168.0.75&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\KSAKIN~1.EVO\AppData\Local\Temp\scoped_dir22292_20460}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: bf5f2bedf03fd0dc4726c68b3eabaecf
-*** Element info: {Using=xpath, value=//div[@class=&apos;ui-grid-canvas&apos;]/div[1]/div/div[6]/user-click-select/div[1]/button/i}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\KSAKIN~1.EVO\AppData\Local\Temp\scoped_dir10512_19611}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 96ac9594b982c8b89ed213727ef496c4
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.getCoordinates(Unknown Source)
-	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:67)
-	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:74)
-	at org.openqa.selenium.interactions.DoubleClickAction.perform(DoubleClickAction.java:43)
-	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:637)
-	at pages.WebTable.editFeildValueInWebTable(WebTable.java:58)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at pages.WebTable.editFeildValueInWebTable(WebTable.java:60)
 	at testcases.EditRegisteredUserEmail.verifyEditRegisteredUserEmail(EditRegisteredUserEmail.java:17)
-... Removed 28 stack frames
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -260,20 +250,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyUserRegistrationForm')
 data.setCell(0, 2, 'testcases.UserRegistrationForm')
-data.setCell(0, 3, 10029);
+data.setCell(0, 3, 9677);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyPhotoUpload')
-data.setCell(1, 2, 'testcases.UserRegistrationForm')
-data.setCell(1, 3, 218);
+data.setCell(1, 1, 'verifyEditRegisteredUserEmail')
+data.setCell(1, 2, 'testcases.EditRegisteredUserEmail')
+data.setCell(1, 3, 2018);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyEditRegisteredUserEmail')
-data.setCell(2, 2, 'testcases.EditRegisteredUserEmail')
-data.setCell(2, 3, 164);
+data.setCell(2, 1, 'verifyPhotoUpload')
+data.setCell(2, 2, 'testcases.UserRegistrationForm')
+data.setCell(2, 3, 264);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -315,19 +305,19 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">verifyPhotoUpload</span>
-                <span class="method-start">24586 ms</span>
+                <span class="method-start">10932 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=verifyPhotoUpload status=SUCCESS method=UserRegistrationForm.verifyPhotoUpload()[pr...)</span>
-                <span class="method-start">24810 ms</span>
+                <span class="method-start">11198 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyUserRegistrationForm</span>
-                <span class="method-start">24813 ms</span>
+                <span class="method-start">11200 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=verifyUserRegistrationForm status=SUCCESS method=UserRegistrationForm.verifyUserReg...)</span>
-                <span class="method-start">34843 ms</span>
+                <span class="method-start">20879 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -336,18 +326,18 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyEditRegisteredUserEmail</span>
-                <span class="method-start">34845 ms</span>
+                <span class="method-start">20880 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=verifyEditRegisteredUserEmail status=FAILURE method=EditRegisteredUserEmail.verifyE...)</span>
-                <span class="method-start">35030 ms</span>
+                <span class="method-start">22904 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.UserRegistrationForm</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">reportClose</span>
-                <span class="method-start">35388 ms</span>
+                <span class="method-start">23214 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
